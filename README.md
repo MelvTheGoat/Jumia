@@ -29,7 +29,7 @@ NLP & Machine Learning: NLTK / spaCy, Scikit-Learn (or Transformers for advanced
 
 Data Visualization: Matplotlib, Seaborn
 
-🚀 Getting Started
+Getting Started
 Prerequisites
 Make sure you have Python 3.8+ installed. It is recommended to use a virtual environment.
 
@@ -76,7 +76,7 @@ Bash
 python src/predict.py --text "The delivery was fast, but the product arrived broken."
 ### Output: Negative
 
-uture Improvements
+Future Improvements
 Implement Deep Learning/Transformer models (e.g., BERT/RoBERTa) for higher contextual accuracy.
 
 Deploy the model as an API using FastAPI or Flask.
