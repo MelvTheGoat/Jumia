@@ -1,15 +1,15 @@
-Jumia E-Commerce Sentiment Analysis
+### Jumia E-Commerce Sentiment Analysis
 This repository contains the code for a data scraping and machine learning project focused on Jumia, a leading e-commerce platform. The project addresses the challenge of understanding customer satisfaction at scale by extracting product reviews and applying Natural Language Processing (NLP) to classify their sentiment.
 
-📌 Problem Statement
+### Problem Statement
 Jumia hosts thousands of products across multiple categories. While customer reviews contain valuable insights regarding product quality and customer preferences, analyzing them manually is inefficient and unscalable for sellers and the platform.
 
 Task 3 Specific Focus: Develop a machine learning model that classifies customer reviews as positive, negative, or neutral using text data scraped from Jumia.
 
-🎯 Objective
+### Objective
 To help businesses and platform administrators understand customer satisfaction at scale, optimize pricing/visibility strategies, and quickly identify areas requiring improvement.
 
-⚙️ Key Features
+### Key Features
 Custom Web Scraper: Automated extraction of product details and customer reviews from Jumia.
 
 Data Preprocessing: Cleaning and structuring raw HTML text, handling missing values, and preparing textual data for NLP tasks (tokenization, stop-word removal, lemmatization).
@@ -18,7 +18,7 @@ Exploratory Data Analysis (EDA): Visualizing review distributions, word clouds, 
 
 Sentiment Classification Model: A machine learning pipeline that categorizes reviews into Positive, Negative, or Neutral.
 
-🛠️ Tech Stack
+### Tech Stack
 Language: Python
 
 Web Scraping: BeautifulSoup, Selenium, or Requests
@@ -74,7 +74,7 @@ Pass a new text string or dataset to get sentiment predictions.
 
 Bash
 python src/predict.py --text "The delivery was fast, but the product arrived broken."
-# Output: Negative
+### Output: Negative
 
 uture Improvements
 Implement Deep Learning/Transformer models (e.g., BERT/RoBERTa) for higher contextual accuracy.
