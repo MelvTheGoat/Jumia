@@ -35,17 +35,20 @@ Make sure you have Python 3.8+ installed. It is recommended to use a virtual env
 
 Installation
 Clone the repository:
-
+```
 git clone https://github.com/MelvTheGoat/Jumia.git
 cd Jumia
-
+```
 Set up a virtual environment (optional but recommended):
+```
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-
+```
 Install the required dependencies:
+```
 pip install -r requirements.txt
-
+```
+```
 Jumia/
 ├── data/
 │   ├── raw/               # Scraped, unprocessed JSON/CSV files
@@ -58,24 +61,25 @@ Jumia/
 │   └── predict.py         # Inference script for new reviews
 ├── requirements.txt       # Project dependencies
 └── README.md              # Project documentation
-
+```
 Usage
 1. Scrape Data:
 Run the scraper to fetch the latest reviews for targeted Jumia products.
 
-python src/scraper.py --category "electronics" --pages 5
+```python src/scraper.py --category "electronics" --pages 5```
 
 2. Train the Model:
 Train the sentiment classification model using the scraped dataset.
-python src/train.py
+```python src/train.py```
 
 3. Evaluate Reviews:
 Pass a new text string or dataset to get sentiment predictions.
 
 Bash
+```
 python src/predict.py --text "The delivery was fast, but the product arrived broken."
 ### Output: Negative
-
+```
 Future Improvements
 Implement Deep Learning/Transformer models (e.g., BERT/RoBERTa) for higher contextual accuracy.
 
